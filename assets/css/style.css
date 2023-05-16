@@ -1,0 +1,14 @@
+#home, #about, #services, #works, #shop, #blog, #content{
+    height: 650px;
+    padding: 150px;
+}
+.about-content-title {
+  font-size: 80px;
+  color: #3533331a;
+}
+
+/* ========= Carousel CSS Start ============ */
+
+
+
+/* ========== Carousel CSS End ============= */
