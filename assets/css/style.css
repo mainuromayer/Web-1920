@@ -19,11 +19,20 @@
   --------------- */
 /* Mobile Devices */
 @media only screen and (max-width: 668px) {
+
   #home, #about, #services, #works, #shop, #blog, #content {
-    margin-left: -100px;
+    margin-left: -135px;
+    width: 185%;
+  }
+
+  #home h1, #services h1, #works h1, #shop h1, #blog h1, #content h1 {
+    font-size: 30px;
   }
 
   #about {
     height: 1500px;
+  }
+  #about h2 {
+
   }
 }
