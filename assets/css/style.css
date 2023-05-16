@@ -25,14 +25,18 @@
     width: 185%;
   }
 
-  #home h1, #services h1, #works h1, #shop h1, #blog h1, #content h1 {
+  #home h1, #works h1, #shop h1, #blog h1, #content h1 {
     font-size: 25px;
+  }
+
+  #home {
+    text-align: center;
   }
 
   #about {
     height: 1500px;
   }
-  #about h2 {
-
+  .about-top, .services-top {
+    text-align: center;
   }
 }
