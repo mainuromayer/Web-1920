@@ -12,3 +12,18 @@
 
 
 /* ========== Carousel CSS End ============= */
+
+
+/* --------------
+   Media Queries
+  --------------- */
+/* Mobile Devices */
+@media only screen and (max-width: 668px) {
+  #home, #about, #services, #works, #shop, #blog, #content {
+    margin-left: -100px;
+  }
+
+  #about {
+    height: 1500px;
+  }
+}
