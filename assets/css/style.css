@@ -1,11 +1,13 @@
 header {
-	background-color: rgba(236, 236, 236, 0.53);
+	background-color: rgba(236, 236, 236, 0.658);
 }
-
+/* ============= HOME ============= */
 #home, #blog, #content {
 	height: 770px;
 	padding: 150px;
 }
+
+/* ============= ABOUT ============= */
 #about {
   height: 770px;
   padding: 150px;
@@ -15,11 +17,14 @@ header {
   color: #3533331a;
 }
 
+/* ============= SERVICES ============= */
 #services {
   height: 900px;
   padding: 120px;
 }
 
+
+/* ============= WORKS ============= */
 #works {
   height: 1000px;
   padding: 120px;
@@ -34,10 +39,30 @@ header {
   margin-left: -30px;
 }
 
-
+/* ============= SHOP ============= */
 #shop {
   height: 1000px;
   padding: 120px;
+}
+.client-reviews{
+  text-align: center;
+}
+
+.quote-left, .quote-right {
+  font-size: 33px;
+}
+
+.shop-button {
+  position: absolute;
+  top: 223px;
+  left: 90px;
+}
+.quote-right {
+	position: relative;
+	left: 220px;
+}
+.arrow-left, .arrow-right {
+	text-align: center;
 }
 
 
@@ -53,13 +78,11 @@ header {
     height: 700px;
     background-color: rgb(71, 238, 112);
   }
-
   #home .container {
     width: 366px;
     background-color: rgb(255, 242, 127);
     padding: 20px;
   }
-
   #home h1, #works h1, #shop h1, #blog h1, #content h1 {
     font-size: 25px;
   }
@@ -69,7 +92,6 @@ header {
     height: 1200px;
     background-color: rgb(41, 206, 82);
   }
-
   #about .container {
     width: 366px;
     background-color: rgb(255, 242, 127);
@@ -82,8 +104,6 @@ header {
     padding: 150px;
     background-color: rgb(104, 41, 206);
   }
-
-  
   #services .container {
     width: 366px;
     background-color: rgb(255, 242, 127);
@@ -100,13 +120,38 @@ header {
     background-color: rgb(255, 242, 127);
     padding: 20px;
   }
-
   .work-section-2 {
     padding-top: 50px;
   }
 
   #shop {
-    height: 1500px;
-    padding: 120px;
+    background-color: rgb(71, 238, 112);
+    text-align: left;
+    height: 2000px;
+    margin-left: -116px;
+  }
+  #shop .container {
+    width: 366px;
+    background-color: rgb(255, 242, 127);
+    padding: 20px;
+  }
+  .shop-button {
+    position: absolute;
+    top: 247px;
+    left: 90px;
+  }
+  .quote-right {
+    position: relative;
+    left: 200px;
+  }
+  .arrow-left{
+    position: relative;
+    top: 750px;
+    left: 100px;
+  }
+  .arrow-right{
+    position: relative;
+    top: 750px;
+    left: -170px;
   }
 }
