@@ -16,7 +16,7 @@ header {
 }
 
 #services {
-  height: 1200px;
+  height: 900px;
   padding: 120px;
 }
 
@@ -34,11 +34,6 @@ header {
   margin-left: -30px;
 }
 
-.rating button svg {
-	position: relative;
-	top: -2px;
-}
-
 
 #shop {
   height: 1000px;
@@ -52,9 +47,17 @@ header {
 /* Mobile Devices */
 @media only screen and (max-width: 668px) {
 
-  #home, #about, #services, #works, #shop, #blog, #content {
-    margin-left: -135px;
-    width: 185%;
+
+  #home{
+    margin-left: -145px;
+    height: 700px;
+    background-color: rgb(71, 238, 112);
+  }
+
+  #home .container {
+    width: 366px;
+    background-color: rgb(255, 242, 127);
+    padding: 20px;
   }
 
   #home h1, #works h1, #shop h1, #blog h1, #content h1 {
@@ -62,17 +65,42 @@ header {
   }
 
   #about {
-    height: 1500px;
+    margin-left: -145px;
+    height: 1200px;
+    background-color: rgb(41, 206, 82);
+  }
+
+  #about .container {
+    width: 366px;
+    background-color: rgb(255, 242, 127);
+    padding: 20px;
   }
 
   #services {
-    height: 3000px;
+    margin-left: -145px;
+    height: 2000px;
     padding: 150px;
+    background-color: rgb(104, 41, 206);
+  }
+
+  
+  #services .container {
+    width: 366px;
+    background-color: rgb(255, 242, 127);
+    padding: 20px;
   }
 
   #works {
+    background-color: #f05454;
+    margin-left: -116px;
     height: 2000px;
   }
+  #works .container {
+    width: 366px;
+    background-color: rgb(255, 242, 127);
+    padding: 20px;
+  }
+
   .work-section-2 {
     padding-top: 50px;
   }
