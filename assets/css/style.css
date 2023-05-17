@@ -1,17 +1,40 @@
-#home, #about, #services, #works, #shop, #blog, #content{
-    height: 650px;
-    padding: 150px;
+header {
+	background-color: rgba(236, 236, 236, 0.53);
+}
+
+#home, #shop, #blog, #content {
+	height: 770px;
+	padding: 150px;
+}
+#about {
+  height: 770px;
+  padding: 150px;
 }
 .about-content-title {
   font-size: 80px;
   color: #3533331a;
 }
 
-/* ========= Carousel CSS Start ============ */
+#services {
+  height: 1200px;
+  padding: 120px;
+}
+
+#works {
+  height: 1000px;
+  padding: 120px;
+}
+
+.work-section-2 ul {
+  list-style: none;
+  line-height: 50px;
+}
+
+.work-section-2 ul li {
+  margin-left: -30px;
+}
 
 
-
-/* ========== Carousel CSS End ============= */
 
 
 /* --------------
@@ -29,14 +52,19 @@
     font-size: 25px;
   }
 
-  #home {
-    text-align: center;
-  }
-
   #about {
     height: 1500px;
   }
-  .about-top, .services-top {
-    text-align: center;
+
+  #services {
+    height: 3000px;
+    padding: 150px;
+  }
+
+  #works {
+    height: 2000px;
+  }
+  .work-section-2 {
+    padding-top: 50px;
   }
 }
