@@ -1,20 +1,24 @@
 header {
-	background-color: rgba(236, 236, 236, 0.658);
+	background-color: rgba(236, 236, 236, 0.993);
 }
 /* ============= HOME ============= */
 #home {
-	height: 770px;
+	height: 670px;
   padding: 150px;
 }
 
 /* ============= ABOUT ============= */
 #about {
-	height: 770px;
+	height: 870px;
   padding: 150px;
 }
 .about-content-title {
   font-size: 80px;
   color: #3533331a;
+}
+.brand-logo {
+  background-color: #00a8c6;
+  margin-top: 100px;
 }
 
 /* ============= SERVICES ============= */
@@ -24,9 +28,45 @@ header {
 }
 
 
+/* ============= SERVICES IMAGE ============= */
+.services-image-content {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #33353673;
+}
+.services-image-content:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 /* ============= WORKS ============= */
 #works {
-  height: 1000px;
+  height: 700px;
   padding: 150px;
 }
 
@@ -41,7 +81,7 @@ header {
 
 /* ============= SHOP ============= */
 #shop {
-  height: 1000px;
+  height: 900px;
   padding: 150px;
 }
 .client-reviews, .latest-posts{
@@ -62,8 +102,9 @@ header {
 
 /* ============= BLOG ============= */
 #blog {
-  height: 1000px;
+  height: 900px;
   padding: 150px;
+  background-color: aquamarine;
 }
 
 
@@ -103,7 +144,7 @@ header {
   }
 
   #about {
-    height: 1000px;
+    height: 1300px;
     padding: 100px 0 0 0;
   }
   #about .container {
