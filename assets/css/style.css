@@ -5,14 +5,12 @@ header {
 #home {
 	height: 770px;
   padding: 150px;
-  background-color: #f05454;
 }
 
 /* ============= ABOUT ============= */
 #about {
 	height: 770px;
   padding: 150px;
-  background-color: #54e6f0;
 }
 .about-content-title {
   font-size: 80px;
@@ -23,7 +21,6 @@ header {
 #services {
   height: 1000px;
   padding: 150px;
-  background-color: #54f061;
 }
 
 
@@ -31,7 +28,6 @@ header {
 #works {
   height: 1000px;
   padding: 150px;
-  background-color: #8dbfc5;
 }
 
 .work-section-2 ul {
@@ -47,7 +43,6 @@ header {
 #shop {
   height: 1000px;
   padding: 150px;
-  background-color: #c58db9;
 }
 .client-reviews, .latest-posts{
   text-align: center;
@@ -57,15 +52,10 @@ header {
   font-size: 33px;
 }
 
-.shop-button {
-	position: absolute;
-	top: 245px;
-	left: 85px;
-}
 .quote-right {
-	position: relative;
-	left: 200px;
+  width: 30px;
 }
+
 .arrow-left, .arrow-right {
 	text-align: center;
 }
@@ -74,15 +64,25 @@ header {
 #blog {
   height: 1000px;
   padding: 150px;
-  background-color: #6d8aeb;
 }
 
 
 /* ============= CONTENT ============= */
 #content {
-  height: 1000px;
+  height: 600px;
   padding: 150px;
-  background-color: #576eec;
+}
+.content-section-1 ul, .content-section-2 ul {
+  list-style: none;
+  line-height: 27px;
+}
+
+.content-section-1 ul, .content-section-2 ul li {
+  margin-left: -30px;
+}
+
+.footer-icon i {
+  font-size: 20px;
 }
 
 
@@ -92,12 +92,10 @@ header {
 /* Mobile Devices */
 @media only screen and (max-width: 640px) {
   #home{
-    height: 896px;
-    background-color: #f05454;
+    height: 1000px;
     padding: 100px 0 0 0;
   }
   #home .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px;
   }
   #home h1, #works h1, #shop h1, #blog h1, #content h1 {
@@ -105,32 +103,26 @@ header {
   }
 
   #about {
-    height: 1200px;
-    background-color: #54e6f0;
+    height: 1000px;
     padding: 100px 0 0 0;
   }
   #about .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px;
   }
 
   #services {
     height: 2000px;
     padding: 100px 0 0 0;
-    background-color: #54f061;
   }
   #services .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px;
   }
 
   #works {
-    background-color: #8dbfc5;
-    height: 2000px;
+    height: 1600px;
     padding: 100px 0 0 0;
   }
   #works .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px;
   }
   .work-section-2 {
@@ -138,47 +130,33 @@ header {
   }
 
   #shop {
-    background-color: #c58db9;
-    height: 2200px;
+    height: 1900px;
     padding: 100px 0 0 0;
   }
   #shop .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px 20px 100px 20px;
   }
-  .shop-button {
-    position: absolute;
-    top: 247px;
-    left: 90px;
-  }
-  .quote-right {
+  .arrow-left {
     position: relative;
-    left: 200px;
-  }
-  .arrow-left{
-    position: relative;
-    top: 750px;
-    left: 100px;
+    top: 650px;
+    left: 180px;
   }
   .arrow-right{
     position: relative;
-    top: 750px;
-    left: -170px;
+    top: 650px;
+    left: -250px;
   }
 
   #blog {
-    background-color: #6d8aeb;
-    height: 2400px;
+    height: 2700px;
     padding: 100px 0 0 0;
   }
   #blog .container {
-    background-color: rgb(255, 242, 127);
     padding: 20px;
   }
 
   #content {
-    height: 1200px;
+    height: 900px;
     padding: 100px 0 0 0;
-    background-color: #576eec;
   }
 }
